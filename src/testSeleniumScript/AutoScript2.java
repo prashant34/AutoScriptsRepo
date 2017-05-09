@@ -12,8 +12,8 @@ public class AutoScript2 {
 	public static void main(String[] args){
 	WebDriver driver1=new FirefoxDriver();
 	driver1.get("http://www.guru99.com/");
-	WebElement wb11=driver1.findElement(By.xpath("//a[text()='Learn Selenium']"));
-	wb11.click();
+	WebElement wb111=driver1.findElement(By.xpath("//a[text()='Learn Selenium']"));
+	wb111.click();
 	}
 
 }
